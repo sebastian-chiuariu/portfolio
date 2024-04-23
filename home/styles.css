@@ -1,0 +1,43 @@
+html, body{
+    height: 80vh;
+    width: 85%;
+    margin: 0 auto;
+    background-color: #0b111a;
+}
+
+.work{
+    display: flex;
+    justify-content: center;
+    user-select: none;
+}
+.focus{
+    display: inline-block;
+    margin: 50px 10px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 100px;
+    font-weight: 200;
+    color: white;
+}
+#focus{   
+    background: linear-gradient(rgb(252, 127, 50), rgb(93, 13, 150));
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight:600;
+}
+.name-container{
+    display:flex;
+}
+#name{
+    font-size: 50px;
+    font-weight: 300;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+    user-select: none;
+    margin: 0 auto;
+}
+
+
+
+
+
+
