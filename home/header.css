@@ -26,7 +26,7 @@ header {
 }
 
 .extensions:hover::before {
-    animation: border-movement 2s ease forwards;
+    animation: border-movement 0.5s ease forwards;
 }
 
 .extensions a {
@@ -47,19 +47,13 @@ header {
 @keyframes border-movement {
     0% {
         transform: scale(1);
-        border-color: rgba(255, 255, 255, 0.5);
         opacity: 0.5; 
-        border: 1px solid purple;
-    }
-    50% {
-        transform: scale(1);
-        border-color: rgba(255, 255, 255, 0.5);
-        opacity: 1; 
-        border: 1px solid purple;
+        border: 1px solid rgb(184, 241, 12);
     }
     100% {
         transform: scale(1);
-        border: 1px solid purple;
+        border: 1px solid rgb(8, 163, 224);
         opacity: 0; 
     }
 }
+

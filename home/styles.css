@@ -5,40 +5,67 @@ html, body{
     background-color: #0b111a;
 }
 
-.working-on{
-    margin: 40px 0;
-    display:flex;
-    color: azure;
-    font-family: 'IBM Plex Mono',monospace;
-    font-size: 60px;
-    font-weight: 600;
-    #work{
-        margin: 0 auto;
-        justify-content: center;
-    }
-}
+
 
 .container-whoami{
-    
+    margin-top: 40px;
     justify-content: center;
     background-color: #141f2e;
     border-radius: 20px;
+
+    .name{
+        font-family: 'Poppins',sans-serif;
+        margin: 0 auto;
+        padding: 10px;
+        font-size: 70px;
+        font-weight: 300;
+        color: white;
+        user-select: none;
+        text-align: center;
+
+        #gradient{
+            background: linear-gradient(rgb(184, 241, 12), rgb(8, 163, 224));
+            -webkit-background-clip: text;
+            color: transparent;
+            font-weight: 700;
+        }
+    }
 }
-.name{
-    display: inline-block;
-    margin: 0 15px;
-    font-family: 'Poppins',sans-serif;
-    font-size: 80px;
-    font-weight: 200;
-    color: white;
-    user-select: none;
+
+.container-whoami:hover{
+    transition: 1s;
+    animation:  border-box-aboutme 5s ease infinite;
 }
-#gradient{   
-    background: linear-gradient(rgb(252, 127, 50), rgb(93, 13, 150));
-    -webkit-background-clip: text;
-    color: transparent;
-    font-weight:600;
+
+.aboutme{
+    width: 60%;
+    font-family: 'DM Sans',sans-serif;
+    font-size: 22px;
+    color: azure;
+    padding: 0 0 60px 80px;
+    text-align: left;
 }
+
+
+
+@keyframes border-box-aboutme {
+    0% {
+        transform: scale(1);
+        border: 1px solid rgba(62, 238, 74, 0.499);
+    }
+    50% {
+        transform: scale(1);
+        border: 1px solid rgba(42, 172, 223, 0.499);
+    }
+    100% {
+        transform: scale(1);
+        border: px solid rgba(68, 238, 79, 0.499);
+         
+    }
+}
+
+
+
 
 
 

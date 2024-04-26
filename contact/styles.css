@@ -1,0 +1,105 @@
+html, body{
+    height: 80vh;
+    width: 85%;
+    margin: 0 auto;
+    background-color: #93A8AC;
+}
+
+#ways-to-contact-me-title{
+    margin: 0 0 40px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'DM Sans',sans-serif;
+    font-weight: 900;
+    color: white;
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    height: 70%;
+    background-color: aliceblue;
+    opacity: 0.8;
+    box-shadow: -10px 10px 1px rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+
+    .container-buttons {
+        display: flex;
+        width: 100%;
+        margin-top: 20px;
+    
+        .button-one,.button-two,.button-three {
+            width: 20px; 
+            height: 20px; 
+            border-radius: 50%; 
+        }
+        .button-one{
+            margin-left: 20px;
+            background-color: red;
+        }
+        .button-two{
+            background-color: orange;
+            margin-left: 10px;
+        }
+        .button-three{
+            background-color: green;
+            margin-left: 10px;
+        }
+    }
+
+    hr{
+        margin-top: 15px;
+        width: calc(100% - 0.2%);
+        border: 1px solid black;
+    }
+
+    .ways-of-contact{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        overflow: scroll;
+        gap: 10%;
+        width: 100%;
+        height: 100%;
+        grid-template-columns: auto auto auto;
+    }
+    .ways-of-contact img{
+        
+        width: 60%;
+        padding: 0%;
+    }
+    .lower{
+        margin-bottom: -40%;
+    }
+    .upper{
+        margin-top: -40%;
+    }
+
+    #mail:hover{
+        content: url(/images/Logos/mail-colored.png);
+    }
+    #phone:hover{
+        content: url(/images/Logos/phone-colored.png);
+    }
+    #youtube:hover{
+        content: url(/images/Logos/youtube-colored.png);
+    }
+    #discord:hover{
+        content: url(/images/Logos/discord-colored.png);
+    }
+    #linkedin:hover{
+        content: url(/images/Logos/linkedin-colored.png);
+    }
+    #github:hover{
+        content: url(/images/Logos/github-colored.png);
+    }
+}
+
+
+
+
