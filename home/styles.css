@@ -5,8 +5,6 @@ html, body{
     background-color: #0b111a;
 }
 
-
-
 .container-whoami{
     margin-top: 40px;
     justify-content: center;
@@ -16,7 +14,7 @@ html, body{
     .name{
         font-family: 'Poppins',sans-serif;
         margin: 0 auto;
-        padding: 10px;
+        padding: 20px;
         font-size: 70px;
         font-weight: 300;
         color: white;
@@ -32,38 +30,21 @@ html, body{
     }
 }
 
-.container-whoami:hover{
-    transition: 1s;
-    animation:  border-box-aboutme 5s ease infinite;
-}
-
 .aboutme{
     width: 60%;
     font-family: 'DM Sans',sans-serif;
-    font-size: 22px;
+    font-size: 25px;
     color: azure;
-    padding: 0 0 60px 80px;
+    padding: 70px 0 170px 90px;
     text-align: left;
 }
 
-
-
-@keyframes border-box-aboutme {
-    0% {
-        transform: scale(1);
-        border: 1px solid rgba(62, 238, 74, 0.499);
-    }
-    50% {
-        transform: scale(1);
-        border: 1px solid rgba(42, 172, 223, 0.499);
-    }
-    100% {
-        transform: scale(1);
-        border: px solid rgba(68, 238, 79, 0.499);
-         
-    }
+.cover-image{
+    position: fixed;
+    top: 33%;
+    left: 58%;
+    width: 30%;
 }
-
 
 
 

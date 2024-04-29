@@ -1,0 +1,38 @@
+html, body{
+    background-image: url(/images/covers-design/discord-wallpaper.png);
+    display: flex;
+    background-color: #2b6eff;
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+h1 {
+    background-color: transparent;
+    text-shadow: -10px 10px 20px #112b63 ;
+    color: white;
+    font-family: 'Luckiest Guy',monospace;
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 300;
+
+    #name{
+        font-size: 90px;
+        font-weight: 300;
+    }
+    #number{
+        letter-spacing: 5px;
+        font-size: 100px;
+    }
+}
+
+
+
+
+
+
